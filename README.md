@@ -42,10 +42,11 @@ O elevador movimenta-se andar por andar, exibindo o estado atual durante o percu
 4. Interagir com o menu apresentado  
 
 ---
-======SIMULADOR DE ELEVADOR======
-1- Escolher andar
-2- Ver andar actual
-0- Sair
+##  SIMULADOR ELEVADOR
+
+1. Esscolher o andar  
+2. Ver o andar 
+0. Sair
 
 
 ---
@@ -67,4 +68,4 @@ O elevador movimenta-se andar por andar, exibindo o estado atual durante o percu
 2026
 
 
-## 📸 Exemplo de Execução
+##  Exemplo de Execução
