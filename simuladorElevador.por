@@ -18,17 +18,17 @@ programa
 
             se (opcao == 1)
             {
-                // 👥 Controle de pessoas
+                // Controle de pessoas
                 escreva("Quantas pessoas entram no elevador? ")
                 leia(pessoas)
 
                 se (pessoas > 5)
                 {
-                    escreva("❌ Excesso de pessoas! Máximo permitido: 5\n")
+                    escreva("Excesso de pessoas! Máximo permitido: 5\n")
                 }
                 senao
                 {
-                    escreva("✅ Pessoas dentro do limite\n")
+                    escreva("Pessoas dentro do limite\n")
 
                     // Escolher andar
                     escreva("Digite o andar (0 a 6): ")
@@ -37,7 +37,7 @@ programa
                     // Validação
                     se (destino < 0 ou destino > 6)
                     {
-                        escreva("❌ Andar inválido!\n")
+                        escreva("Andar inválido!\n")
                     }
                     senao
                     {
@@ -46,8 +46,8 @@ programa
                             enquanto (andarAtual < destino)
                             {
                                 andarAtual++
-                                escreva("🔼 Subindo... Andar ", andarAtual, "\n")
-                                escreva("🔊 Você está no andar ", andarAtual, "\n")
+                                escreva("Subindo... Andar ", andarAtual, "\n")
+                                escreva("Você está no andar ", andarAtual, "\n")
                             }
                         }
                         senao se (destino < andarAtual)
@@ -55,22 +55,22 @@ programa
                             enquanto (andarAtual > destino)
                             {
                                 andarAtual--
-                                escreva("🔽 Descendo... Andar ", andarAtual, "\n")
-                                escreva("🔊 Você está no andar ", andarAtual, "\n")
+                                escreva("Descendo... Andar ", andarAtual, "\n")
+                                escreva("Você está no andar ", andarAtual, "\n")
                             }
                         }
                         senao
                         {
-                            escreva("⚠️ Já está no mesmo andar!\n")
+                            escreva("Já está no mesmo andar!\n")
                         }
 
-                        escreva("🔔 Ding! Chegou ao andar ", andarAtual, "\n")
+                        escreva("Ding! Chegou ao andar ", andarAtual, "\n")
                     }
                 }
             }
             senao se (opcao == 2)
             {
-                escreva("📍 Andar atual: ", andarAtual, "\n")
+                escreva("Andar atual: ", andarAtual, "\n")
             }
             senao se (opcao == 0)
             {
@@ -78,7 +78,7 @@ programa
             }
             senao
             {
-                escreva("❌ Opção inválida!\n")
+                escreva("Opção inválida!\n")
             }
         }
     }
